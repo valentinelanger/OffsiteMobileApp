@@ -21,10 +21,8 @@ export default class App extends Component {
         <Header />
         <UserPanel/>
         <View style={styles.separation} />
-        
         <ConnectPanel />
         <ButtonComponent />
-        
         <Footer />
       </View>
     );
